@@ -1,0 +1,109 @@
+.area-section {
+    margin-top: 90px;
+    margin-left: 140px;
+    margin-right: 200px;
+    color: white;
+}
+
+.area-heading {
+    text-align: center;
+    font-family: Inter, Arial;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.area-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.area-img1 {
+    padding: 0px 0px 30px 0px;
+    position: relative;
+}
+
+.area-img1-text {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 360px;
+    color: white;
+    font-family: Inter, Arial;
+    font-size: 18px;
+}
+
+.area-img2 {
+    padding: 0px 0px 30px 0px;
+    position: relative;
+}
+
+.area-img2-text {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 100px ;
+    color: white;
+    font-family: Inter, Arial;
+    font-size: 18px;
+}
+
+.area-img3 {
+    padding: 0px 0px 30px 0px;
+    position: relative;
+}
+
+.area-img3-text {
+    position: absolute;
+    font-family: Inter, Arial;
+    font-size: 18px;
+    color: white;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.area-img4 {
+    padding: 0px 0px 30px 0px;
+    position: relative;
+}
+
+.area-img4-text {
+    position: absolute;
+    font-family: Inter, Arial;
+    font-size: 18px;
+    color: white;
+    margin-top: -60px;
+    margin-left: 340px;
+}
+
+.area-img5 {
+    padding: 0px ;
+    position: relative;
+}
+
+.area-img5-text {
+    position: absolute;
+    font-family: Inter, Arial;
+    font-size: 18px;
+    color: white;
+    margin-top: -60px;
+    margin-left: 290px;
+}
+
+.area-img6 {
+    padding: 0px ;
+    position: relative;
+}
+
+.area-img6-text {
+    position: absolute;
+    font-family: Inter, Arial;
+    font-size: 18px;
+    color: white;
+    margin-top: -60px;
+    margin-left: 120px;
+}

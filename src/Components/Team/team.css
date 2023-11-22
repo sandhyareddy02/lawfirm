@@ -1,0 +1,89 @@
+.team-section {
+    margin-top: 150px;
+    margin-left: 160px;
+    margin-right: 220px;
+}
+
+.team-heading {
+    text-align: center;
+    color: white;
+    font-family: Inter, Arial;
+    font-size: 24px;
+    font-weight:200;
+}
+
+.team-container {
+    margin-top: 60px;
+    position: absolute;
+    margin-right: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:430px;
+}
+
+.team-box img {
+    width: 70px;
+    padding: 4px 1px 2px 1px;
+}
+
+.team-box1 {
+    display: flex;
+    color: white;
+}
+
+.team-box2 {
+    display: flex;
+    margin-left: 60px;
+    border: 1px solid #E3B748;
+    background-color: #E3B748;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.team-box3 {
+    display: flex;
+    margin-left: 220px;
+}
+
+.team-box4 {
+    display: flex;
+    margin-top: 8px;
+}
+
+.team-box5 {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 8px;
+}
+
+.team-box6 {
+    display: flex;
+    margin-left: 220px;
+    margin-top: 8px;
+}
+
+.team-content {
+    margin-left: 20px;
+}
+
+.team-content h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Inter, Arial;
+    padding: 2px 0px 0px 0px;
+}
+
+.team-content p {
+    font-size: 16px;
+    font-family: Inter, Arial;
+    line-height: 10px;
+    margin-top: 5px;
+}

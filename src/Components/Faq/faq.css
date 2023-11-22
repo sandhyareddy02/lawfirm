@@ -1,0 +1,86 @@
+.faq-section {
+    margin-top: 450px;
+    margin-left: 160px;
+    margin-right: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.faq-left-container {
+    color:white
+}
+
+.faq-left-container h1 {
+    font-family: Inter, Arial;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.faq-left-container p {
+    color: #8e8e8e;
+    line-height: 27px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.faq-right-container {
+    margin-top: 70px;
+}
+
+.faq-right-container h3 {
+    font-family: Inter, Arial;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.faq-right-container p{
+    font-family: Inter, Arial;
+    font-size: 16px;
+    color: #8e8e8e;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    background-color: var(--css-primary);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: Inter, Arial;
+    font-size: 20px;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: '\002B'; 
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+    background-color: #E3B748;
+    border-radius: 50%;
+    padding: 2px 4px 1px 4px;
+}
+
+.accordion.active:after {
+    content: '\2212'; 
+}
+
+.accordion-container button {
+    position: relative;
+    margin-left: -15px;
+}
+

@@ -1,0 +1,54 @@
+.news-section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 160px;
+    margin-right: 220px;
+    border: 2px solid #b3adad97;
+    background-color: #b3adad97;
+}   
+
+.news-container {
+    text-align: center;
+    color: white;
+    font-family: Inter, Arial;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.news-container h1 {
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+.input-wrapper {
+    margin: 0 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    padding: 10px;
+    /* margin: 5px; */
+    border: none;
+    box-sizing: border-box;
+}
+
+input[type="text"]:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+input[type="submit"]:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #E3B748;
+}
